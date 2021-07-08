@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  urladmin:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-07-07T21:08:08.571859-07:00"
+    description: URL admin Helm chart for Kubernetes
+    digest: be6cc488d5ed5ad98ae79248410516065083f2c374b33cb97d9791ec9ab244e7
+    name: urladmin
+    type: application
+    urls:
+    - https://mtanvir9666.github.io/tinyurl-helm-chart/urladmin-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-07-07T21:08:08.571024-07:00"

@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: urladmin
+  labels:
+    app: urladmin
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: urladmin
+  template:
+    metadata:
+      labels:
+        app: urladmin
+    spec:
+      containers:
+      - name: urladmin
+        image: mtanvir96/urladmin
+        ports:
+        - containerPort: 27017
